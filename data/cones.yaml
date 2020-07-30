@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /home/ares/cv_ws/cnn_train/darknet_alexeyab_colormod3/dart/s20/datasets/dataset3/train/
+val: /home/ares/cv_ws/cnn_train/darknet_alexeyab_colormod3/dart/s20/datasets/dataset3/val/
+test: /home/ares/cv_ws/cnn_train/darknet_alexeyab_colormod3/dart/s20/datasets/dataset3/test/
+
+# number of classes
+nc: 4
+
+# class names
+names: ['b', 'y', 'bo', 'o']
